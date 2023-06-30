@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+
+  background: linear-gradient(45deg, #190361, #bb00ff);
+  animation: gradient 10s ease infinite;
+  background-size: 200% 200%;
+}
+
+main {
+  background-color: #ffffff;
+  display: flex;
+  border-radius: 0.5rem;
+  margin: 23.9rem auto 31.9rem;
+
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.8);
+  width: min(42.8rem, 90%);
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+
+.hide {
+  display: none;
+}
+
+/*screen1*/
+
+h1 {
+  color: #34355b;
+  text-align: center;
+  font-size: 24px;
+  font-family: Montserrat;
+  margin-bottom: 1.4rem;
+}
+
+p {
+  color: #34355b;
+  text-align: center;
+  font-size: 15px;
+  font-family: DM Sans;
+  margin-bottom: 2rem;
+}
+
+.img1 {
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.img1:hover {
+  animation: shake 0.4s ease-in-out infinite;
+}
+
+/*screen2*/
+
+.text {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background: #e4edf1;
+  box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.5);
+  margin-bottom: 1.7rem;
+}
+
+p span {
+  color: #000;
+  text-align: center;
+  font-size: 24px;
+  font-family: Dancing Script;
+  margin: 1rem auto;
+  animation-name: upMessage 2s ease-out forwards;
+}
+
+
+
+button {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-family: DM Sans;
+
+  display: flex;
+  align-items: center;
+  margin: 1.7rem auto;
+  padding: 1.6rem;
+  border-radius: 0.4rem;
+  background: #ff9500;
+  border: none;
+
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #d5810a;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes shake{
+
+  0% {
+    transform: rotate(0deg);
+  }
+  20% {
+    transform: rotate(2deg);
+  }
+  40% {
+    transform: rotate(-1deg);
+  }
+  60% {
+    transform: rotate(2deg);
+  }
+  80% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(0deg);
+}
+}
+
+@keyframes upMessage {
+  0% {
+    opacity: 0;
+    transform: translateY(30rem) scale(0.2);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
