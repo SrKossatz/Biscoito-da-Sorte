@@ -5,10 +5,7 @@ Projeto criado em resposta ao desafio lançado pela RocketSeat. Este projeto faz
 ## Tabela de Conteúdos
 
 - [Visão Geral](#visão-geral)
-- [Instalação](#instalação)
 - [Como Usar](#como-usar)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Visão Geral
 
