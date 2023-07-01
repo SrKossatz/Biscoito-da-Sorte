@@ -69,13 +69,14 @@ p {
   margin-bottom: 1.7rem;
 }
 
-p span {
+.text {
   color: #000;
   text-align: center;
   font-size: 24px;
   font-family: Dancing Script;
   margin: 1rem auto;
-  animation-name: upMessage 2s ease-out forwards;
+  animation-name: toFadeIn;
+  animation-duration: 2s;
 }
 
 
@@ -136,14 +137,17 @@ button:hover {
 }
 }
 
-@keyframes upMessage {
+@keyframes toFadeIn {
   0% {
-    opacity: 0;
-    transform: translateY(30rem) scale(0.2);
+    transform:
+    translateY(150px)
+    scale(0.1);
+
   }
 
   100% {
-    opacity: 1;
-    transform: translateY(0) scale(1);
+    transform:
+    translateY(0px)
+    scale(1);
   }
 }
