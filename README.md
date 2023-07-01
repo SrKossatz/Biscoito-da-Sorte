@@ -1,5 +1,7 @@
 # Biscoito da sote.
 
+![Capa](https://github.com/SrKossatz/Biscoito-da-Sorte/assets/113392841/7909e054-18cb-430b-9387-6b57583d0d18)
+
 Projeto criado em resposta ao desafio lançado pela RocketSeat. Este projeto faz parte de stage 05 do explorer.
 
 ## Tabela de Conteúdos
